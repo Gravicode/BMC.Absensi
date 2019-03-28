@@ -78,7 +78,7 @@ namespace BMC.AbsenDevice
             wifiRS21.NetworkInterface.Open();
             wifiRS21.NetworkInterface.EnableDhcp();
             wifiRS21.NetworkInterface.EnableDynamicDns();
-            wifiRS21.NetworkInterface.Join("BMC123", "123qweasd");
+            wifiRS21.NetworkInterface.Join("BMC123", "bmc123qweasd");
             Print("try to connect..");
             while (wifiRS21.NetworkInterface.IPAddress == "0.0.0.0")
             {
