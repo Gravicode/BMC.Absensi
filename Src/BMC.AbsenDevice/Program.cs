@@ -21,7 +21,7 @@ namespace BMC.AbsenDevice
 {
     public partial class Program
     {
-        const string UrlWeb = "http://bmcsecurityweb.azurewebsites.net/Scan?IDS=";
+        const string UrlWeb = "http://bmcsecurityweb.azurewebsites.net/Scan.aspx?IDS=";
         public bool IsConnected { get; set; }
         static Queue DataRFID = new Queue();
 
